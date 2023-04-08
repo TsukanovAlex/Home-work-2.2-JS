@@ -15,10 +15,10 @@ alert(`Имя создателя языка JavaScript - ${nameJs}`);
 // Задание 4
 let b = Number(10);
 let c = Number(2);
-alert(b+c);
-alert(b-c);
-alert(b*c);
-alert(b/c);
+alert(` Сумма - ${b+c} \n Разность - ${b-c} \n Произведение - ${b*c} \n Частное - ${b/c}`);
+// alert(b-c);
+// alert(b*c);
+// alert(b/c);
 
 // Задание 5
 let result = (2**5);
@@ -41,7 +41,7 @@ alert(num);
 
 // Задание 8
 let age1 = prompt(`Сколько Вам лет?`);
-alert(age1);
+alert(`Вам - ${age1}`);
 
 // Задание 9
 const user = {
