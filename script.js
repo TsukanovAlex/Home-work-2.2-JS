@@ -5,20 +5,18 @@ a = 20;
 alert(a);
 
 // Задание 2
-let year = Number(2007);
-alert(`Год выпуска первого Iphone - ${year}`);
+const iphoneReleaseYear = Number(2007);
+alert(`Год выпуска первого Iphone - ${iphoneReleaseYear}`);
 
 // Задание 3
-let nameJs = String(`Брендан Эйх`);
-alert(`Имя создателя языка JavaScript - ${nameJs}`);
+let creatorName = (`Брендан Эйх`);
+alert(`Имя создателя языка JavaScript - ${creatorName}`);
 
 // Задание 4
-let b = Number(10);
-let c = Number(2);
+let b = 10;
+let c = 2;
 alert(` Сумма - ${b+c} \n Разность - ${b-c} \n Произведение - ${b*c} \n Частное - ${b/c}`);
-// alert(b-c);
-// alert(b*c);
-// alert(b/c);
+
 
 // Задание 5
 let result = (2**5);
