@@ -23,8 +23,8 @@ let result = (2**5);
 alert(result);
 
 // Задание 6
-let d = Number(9);
-let e = Number(2);
+let d = 9;
+let e = 2;
 alert(d%e);
 
 // Задание 7
